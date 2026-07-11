@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My school leaving application</title>
+    </head>
+    <form>
+        <h1>Submit your application here</h1>
+        <hr>
+        <fieldset>
+            <legend>student detail</legend>
+            <label>Your Name</label>
+            <input type="text" placeholder="enter your Name" id="text"><br><br>
+            <label>Student ID</label>
+            <input type="password" placeholder="enter your Id" id="password">
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>choose your class and section</legend>
+            <label>class</label>
+            <select id="class">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <label>section</label>
+            <select id="section">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+            </select>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Reason</legend>
+            <label>Reason for leave</label><br>
+            <input type="radio" value="health-checkup">health-checkup<br>
+            <input type="radio" value="family-function">family-function<br>
+            <input type="radio" value="fever">fever<br>
+        </fieldset>
+        <fieldset>
+            <legend>Date</legend>
+            <label>Date</label><br>
+            From:<input type="date" value="from"><br>
+            To:<input type="date" value="to"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Day</legend>
+            <label>Day</label><br>
+            <input type="checkbox" value="Monday">Monday<br>
+            <input type="checkbox" value="Tuesday">Tuesday<br>
+            <input type="checkbox" value="Wednesday">Wednesday<br>
+            <input type="checkbox" value="Thursday">Thursday<br>
+            <input type="checkbox" value="Friday">Friday<br>
+        </fieldset>
+        <fieldset>
+            <legend>Text Area</legend>
+            <label>Write your text here</label><br>
+            <textarea id="notes" placeholder="e.g I am in my friends house"></textarea>
+        </fieldset><br>
+        <input type="submit" value="submit your application">
+    </form><br><br>
+    <footer>This application is made by heban.</footer>
+</html>
