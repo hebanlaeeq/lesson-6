@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Donation Form</title>
+    </head>
+    <body>
+        <h1>📚 Book Donation Form</h1>
+        <p>Fill the form below to donate your books.</p>
+        <hr>
+        <form>
+        <fieldset>
+            <legend>Donor Detail</legend>
+            <label>Your Name</label><br>
+            <input type="text" id="text" placeholder="Enter your Name"><br><br>
+            <label>Donors ID</label><br>
+            <input type="text" id="text" placeholder="Enter your ID"><br><br>
+            <label>Donation Date</label><br>
+            <input type="date" id="Donation-date"><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Book Details</legend>
+            <label>Choose which type of book you want to donate.</label><br>
+            <select id="categery">
+            <option value="">Select the book</label><br>
+            <option value="science">Science</option>
+            <option value="english">English</option>
+            <option value="urdu">Urdu</option>
+            <option value="math">Math</option>
+            <option value="other">other</option>
+            </select><br><br>
+            <label>Book Condition</label><br>
+            <input type="radio" name="condition" value="excellent">Excellent<br>
+            <input type="radio" name="condition" value="good">Good<br>
+            <input type="radio" name="condition" value="fair">Fair<br><br>
+            <label>Item Description or Comments</label><br>
+            <textarea id="notes" rows="3" cols="35" placeholder="e.g. Write the item name or any additional comments."></textarea>
+        </fieldset><br>
+        <fieldset>
+             <legend>Preferred Delivery Day</legend>
+
+    <input type="checkbox" value="tue"> Tuesday<br>
+    <input type="checkbox" value="thu"> Thursday<br>
+    <input type="checkbox" value="sat"> Saturday<br>
+
+        </fieldset>
+        <br>
+  <input type="submit" value="Submit Donation">
+  </form>
+    </body>
+</html>
